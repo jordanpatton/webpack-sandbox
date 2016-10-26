@@ -1,0 +1,22 @@
+{
+  "name": "webpack-sandbox",
+  "version": "0.0.1",
+  "description": "Webpack Sandbox",
+  "author": "Jordan Patton <jordanpatton@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordanpatton/webpack-sandbox.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "build:dev": "NODE_ENV=development webpack --progress --colors",
+    "build:dist": "NODE_ENV=production webpack --progress --colors"
+  }
+}
